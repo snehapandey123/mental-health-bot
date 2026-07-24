@@ -232,7 +232,7 @@ class FirebaseQuestionManager:
             return None
 
 
-credentials_path = os.path.join(BASE_DIR, "credentials.json")
+credentials_path = "/etc/secrets/credentials.json"
 questions_json_path = os.path.join(BASE_DIR, "questions.json")
 question_manager = FirebaseQuestionManager(
     credentials_path=credentials_path,
