@@ -7,3 +7,4 @@ google-adk
 Deprecated
 Flask[async]
 cryptography
+gunicorn==23.0.0
